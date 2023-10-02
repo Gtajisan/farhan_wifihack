@@ -20,7 +20,11 @@ $ sudo python farhan.py --help
 ```bash
 apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/Gtajisan/farhan_wifihack && cd farhan_wifihack && chmod +x farhan.py && sudo python farhan.py --help
 ```
-#### Example : `sudo python farhan.py -i wlan0 -K`
+### One line Command
+ ```
+ sudo python sudo python farhan.py -i wlan0 -K
+ ```
+
 
 #### Note: 
 **First turn off your Wifi.**
@@ -32,3 +36,10 @@ apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu 
 - `sudo python farhan.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234`
 ### Troubleshooting
 **"Device or resource busy (-16)" - Turn on Wifi and Then Turn off Wifi.**
+## Special Than all root users 
+* FARHAN X ME
+## [Facebook](https://www.facebook.com/profile.php?id=100094924471568&mibextid=ZbWKwL)
+
+## [Whatsapp](https://wa.me/+880130505723*)
+## Thanks For Using This Tool 🐸🙄
+## ki obsta 🤡
