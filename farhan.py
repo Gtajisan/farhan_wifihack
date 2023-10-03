@@ -19,7 +19,6 @@ from typing import Dict
 
 print('''
 \033[1;92m Recoded By FARHAN_MUH_TASIM
-BiRi_B@B@
 Telegram:https://t.me/FARHAN_MUH_TASIM
 One line Command:\nsudo python Wifi_Hack/farhan.py -i wlan0 -K\n
 For Help Type:\npython Wifi_Hack/farhan.py --help\033[0m
