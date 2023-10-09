@@ -18,11 +18,27 @@ import csv
 from typing import Dict
 
 print('''
-\033[1;92m Recoded By FARHAN_MUH_TASIM
-Telegram:https://t.me/FARHAN_MUH_TASIM
-One line Command:\nsudo python Wifi_Hack/farhan.py -i wlan0 -K\n
-For Help Type:\npython Wifi_Hack/farhan.py --help\033[0m
-''')
+\033[1;92m 
+
+███████╗░█████╗░██████╗░██╗░░██╗░█████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
+██╔════╝██╔══██╗██╔══██╗██║░░██║██╔══██╗████╗░██║░░░░░░░██║░░██╗░░██║██║██╔════╝██║
+█████╗░░███████║██████╔╝███████║███████║██╔██╗██║█████╗░╚██╗████╗██╔╝██║█████╗░░██║
+██╔══╝░░██╔══██║██╔══██╗██╔══██║██╔══██║██║╚████║╚════╝░░████╔═████║░██║██╔══╝░░██║
+██║░░░░░██║░░██║██║░░██║██║░░██║██║░░██║██║░╚███║░░░░░░░░╚██╔╝░╚██╔╝░██║██║░░░░░██║
+╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝░░░░░░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝\033[1;36m2.0
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ \033[1;37mOwner   :            FARHAN MUH TASIM
+ \033[1;37mFacebook:            FARHAN MUH TASIM
+ \033[1;37mGithub  :            gtajisan
+ \033[1;37mWhatsapp:            +880130505723*
+ \033[1;31mOne line Command:
+\033[1;31msudo python FARHAN-Shot2/FARHAN-Shot2.py -i wlan0 --iface-down -K
+
+ \033[1;31mFor Help : FB-AND-ETC
+
+ \033[1;31mNote    :       ROOT DEVICES ONLY
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+""")
 class NetworkAddress:
     def __init__(self, mac):
         if isinstance(mac, int):
