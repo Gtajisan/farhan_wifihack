@@ -18,7 +18,7 @@ import statistics
 import csv
 from typing import Dict
 os.system('cls||clear')
-print("""\033[1;32m
+print("""\033[1;35m
 
 ███████╗██████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
 ██╔════╝██╔══██╗████╗░██║░░░░░░░██║░░██╗░░██║██║██╔════╝██║
@@ -37,7 +37,7 @@ print("""\033[1;32m
  \033[1;31mFor Help : FB-AND-TELEGRAM
 
  \033[1;31mNote    :       ROOT DEVICES ONLY
-\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
 """)
 class NetworkAddress:
     def __init__(self, mac):
