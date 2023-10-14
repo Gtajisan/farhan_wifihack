@@ -19,6 +19,28 @@ import csv
 from pathlib import Path
 from typing import Dict
 
+os.system('cls||clear')
+print("""\033[1;32m
+
+███████╗██████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
+██╔════╝██╔══██╗████╗░██║░░░░░░░██║░░██╗░░██║██║██╔════╝██║
+█████╗░░██████╔╝██╔██╗██║█████╗░╚██╗████╗██╔╝██║█████╗░░██║
+██╔══╝░░██╔══██╗██║╚████║╚════╝░░████╔═████║░██║██╔══╝░░██║
+██║░░░░░██║░░██║██║░╚███║░░░░░░░░╚██╔╝░╚██╔╝░██║██║░░░░░██║
+╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░░░░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝\033[1;36m2.0
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ \033[1;37mOwner   :            FARHAN MUH TASIM
+ \033[1;37mFacebook:            FARHAN MUH TASIM
+ \033[1;37mGithub  :            gtajisan X me
+ \033[1;37mWhatsapp:            +880130505723*
+ \033[1;31mOne line Command:
+\033[1;31msudo python farhan_wifihack.py/farhan_wifihack.py -i wlan0 --iface-down -K
+
+ \033[1;31mFor Help : FB-AND-TELEGRAM
+
+ \033[1;31mNote    :       ROOT DEVICES ONLY
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+""")
 
 class NetworkAddress:
     def __init__(self, mac):
