@@ -184,6 +184,7 @@ Launch online WPS bruteforce with the specified first half of the PIN:
  ```
  sudo python3 farhan_wifihack.py -i wlan0 --pbc
  ```
+
 ## Troubleshooting
 #### "RTNETLINK answers: Operation not possible due to RF-kill"
  Just run:
@@ -198,3 +199,7 @@ Launch online WPS bruteforce with the specified first half of the PIN:
 * `Monohrom` for testing, help in catching bugs, some ideas;
 * `Wiire` for developing Pixiewps.
 * binod-xd` for inspire.
+
+## screenshot cmd
+<p align="center"><img src="https://i.ibb.co/RpjJwzj/Screenshot-20231003-083810-Termux.png"></p>
+
