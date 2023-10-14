@@ -37,7 +37,7 @@ Please note that root access is required.
 ### Installation one line:
 
 ```bash
-apt update && apt upgrade && pkg install tsu && pkg install python && pkg install git && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl && termux-setup-storage && curl -sSf https://raw.githubusercontent.com/gtajisan/farhan_wifihack_Termux_installer/master/installer.sh | bash && git clone --depth 1 https://github.com/gtajisan/farhan_wifihackfarhan_wifihack&& sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
+apt update && apt upgrade && pkg install tsu && pkg install python && pkg install git && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl && termux-setup-storage && curl -sSf https://raw.githubusercontent.com/gtajisan/farhan_wifihack_Termux_installer/master/installer.sh | bash && git clone --depth 1 https://github.com/gtajisan/farhan_wifihack farhan_wifihack && sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
 ```
 
 
@@ -67,7 +67,7 @@ termux-setup-storage
  ```
 **Getting farhan_wifihack**
  ```
- git clone --depth 1 https://github.com/gtajisan/farhan_wifihackfarhan_wifihack
+ git clone --depth 1 https://github.com/gtajisan/farhan_wifihack farhan_wifihack
  ```
 #### Running
  ```
