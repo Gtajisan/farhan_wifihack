@@ -9,7 +9,7 @@
 ### How to update WifiHack
 To check for updates and update, run the following command:
 ```
-(cd farhan_wifihack&& git pull)
+(cd farhan_wifihack && git pull)
 ```
 
 # farhan_wifihack_Termux_installer/LINK
