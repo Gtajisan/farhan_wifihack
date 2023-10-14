@@ -199,7 +199,6 @@ Launch online WPS bruteforce with the specified first half of the PIN:
 * `Monohrom` for testing, help in catching bugs, some ideas;
 * `Wiire` for developing Pixiewps.
 * binod-xd` for inspire.
+* support on oneshot.
 
-## screenshot cmd
-<p align="center"><img src="https://i.ibb.co/RpjJwzj/Screenshot-20231003-083810-Termux.png"></p>
 
