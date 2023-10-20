@@ -5,6 +5,12 @@
 [![python](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://www.python.org/downloads/release/python-2714/)
 [![OS](https://img.shields.io/badge/Tested%20On-Linux%20%7C%20Android-yellowgreen.svg)](https://termux.com/)
 
+### Hack wifi using Termux (rooted)
+    
+- [Requirements]
+  - [Python](https://www.python.org)
+  - [Pixiewps](https://www.kali.org/tools/pixiewps/)
+  - [Wpa-supplicant](https://wiki.archlinux.org/title/wpa_supplicant)
 
 ### How to update WifiHack
 To check for updates and update, run the following command:
