@@ -84,69 +84,6 @@ termux-setup-storage
  sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
  ```
 
-
-# Setup
-## Debian/Ubuntu
-**Installing requirements**
- ```
- sudo apt install -y python3 wpasupplicant iw wget
- ```
-**Installing Pixiewps**
-
-***Ubuntu 18.04 and above or Debian 10 and above***
- ```
- sudo apt install -y pixiewps
- ```
- 
-***Other versions***
- ```
- sudo apt install -y build-essential unzip
- wget https://github.com/wiire-a/pixiewps/archive/master.zip && unzip master.zip
- cd pixiewps*/
- make
- sudo make install
- ```
-**Getting farhan_wifihack**
- ```
- cd ~
- wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/farhan_wifihack.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/vulnwsc.txt
- ```
-## Arch Linux
-**Installing requirements**
- ```
- sudo pacman -S wpa_supplicant pixiewps wget python
- ```
-**Getting farhan_wifihack**
- ```
- wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/farhan_wifihack.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/vulnwsc.txt
- ```
-## Alpine Linux
-It can also be used to run on Android devices using [Linux Deploy](https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy)
-
-**Installing requirements**  
-Adding the testing repository:
- ```
- sudo sh -c 'echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories'
- ```
- ```
- sudo apk add python3 wpa_supplicant pixiewps iw
- ```
- **Getting farhan_wifihack**
- ```
- sudo wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/farhan_wifihack.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- sudo wget https://raw.githubusercontent.com/gtajisan/farhan_wifihack/master/vulnwsc.txt
- ```
 ## [Termux](https://termux.com/)
 
 
