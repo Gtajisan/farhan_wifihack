@@ -57,7 +57,7 @@ apt update && apt upgrade && pkg install tsu && pkg install python && pkg instal
 Please note that root access is required.  
 
 ### Hack WIfi Using Termux! (Requires Root)
-<p align="center"><img src="https://i.ibb.co/zSdnKQ4/Screenshot-20231014-180419-Termux.png"></
+<p align="center"><img src="https://i.postimg.cc/zGXq5sxw/Screenshot-20231025-133509-Termux.png"></
 
 
 
