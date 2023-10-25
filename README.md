@@ -65,6 +65,7 @@ Please note that root access is required.
 
 
 #### Using installer
+**for one time setup**
  ```
  curl -sSf https://raw.githubusercontent.com/gtajisan/farhan_wifihack_Termux_installer/master/installer.sh | bash
  ```
