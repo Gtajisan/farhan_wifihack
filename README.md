@@ -37,6 +37,7 @@ To check for updates and update, run the following command:
  - [online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf);
  - Wi-Fi scanner with highlighting based on iw;
 # Requirements
+**all source**
  - Python 3.6 and above;
  - [Wpa supplicant](https://www.w1.fi/wpa_supplicant/);
  - [Pixiewps](https://github.com/wiire-a/pixiewps);
@@ -45,6 +46,7 @@ To check for updates and update, run the following command:
 Please note that root access is required.  
 
 ### Installation one line:
+**run with one line**
 
 ```bash
 apt update && apt upgrade && pkg install tsu && pkg install python && pkg install git && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl && termux-setup-storage && curl -sSf https://raw.githubusercontent.com/gtajisan/farhan_wifihack_Termux_installer/master/installer.sh | bash && git clone --depth 1 https://github.com/gtajisan/farhan_wifihack farhan_wifihack && sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
@@ -75,13 +77,13 @@ pkg install -y root-repo
 pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
 termux-setup-storage
  ```
-**Getting farhan_wifihack**
+### Getting farhan_wifihack
+**run farhan hack py**
  ```
  git clone --depth 1 https://github.com/gtajisan/farhan_wifihack farhan_wifihack
  ```
-#### Running
  ```
- sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
+ cd farhan_wifihack
  ```
 
 ## [Termux](https://termux.com/)
