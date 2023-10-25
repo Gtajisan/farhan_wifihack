@@ -90,6 +90,11 @@ termux-setup-storage
  cd farhan_wifihack
  ```
 
+#### Running
+ ```
+ sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
+ ```
+
 ## [Termux](https://termux.com/)
 
 
