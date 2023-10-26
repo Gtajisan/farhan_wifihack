@@ -992,14 +992,13 @@ class WiFiScanner:
 
     def prompt_network(self) -> str:
         os.system('clear')
-        print(''' 
-       ████████╗██████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
+        print(''' ███████╗██████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
 ██╔════╝██╔══██╗████╗░██║░░░░░░░██║░░██╗░░██║██║██╔════╝██║
 █████╗░░██████╔╝██╔██╗██║█████╗░╚██╗████╗██╔╝██║█████╗░░██║
 ██╔══╝░░██╔══██╗██║╚████║╚════╝░░████╔═████║░██║██╔══╝░░██║
 ██║░░░░░██║░░██║██║░╚███║░░░░░░░░╚██╔╝░╚██╔╝░██║██║░░░░░██║
 ╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░░░░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝\033[1;36mFARHAN-MUH-TASIM
-                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : FARHAN MUH TASIM \n\t\t[\033[1;32m*\033[1;37m] ONE-LINE    : sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 -K\n\t\t[\033[1;32m*\033[1;37m] Create  by  : Farhan \n\t\t[\033[1;32m*\033[1;37m] Version     : FARHAN2.0 \n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : @FARHAN MUH TASIM \n''')
+                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : FARHAN MUH TASIM \n\t\t[\033[1;32m*\033[1;37m] ONE-LINE    : sudo python FARHAN-Shot/FARHAN-Shot.py -i wlan0 -K\n\t\t[\033[1;32m*\033[1;37m] Create  by  : Farhan \n\t\t[\033[1;32m*\033[1;37m] Version     : FARHAN2.0 \n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : @FARHAN MUH TASIM \n''')
         networks = self.iw_scanner()
         if not networks:
             ani('[\033[1;31m-\033[1;37m] No WPS networks found!')
