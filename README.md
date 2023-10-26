@@ -92,7 +92,7 @@ termux-setup-storage
 
 #### Running
  ```
- sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 --iface-down -K
+ sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 -K
  ```
 
 ## [Termux](https://termux.com/)
