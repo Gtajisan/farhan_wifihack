@@ -1012,7 +1012,7 @@ class WiFiScanner:
             return self.prompt_network()
         while 1:
             try:
-                print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ')
+                 print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
                 networkNo = input('[\033[1;33m?\033[1;37m] Select target (press Enter to refresh): ')
                 if networkNo.lower() in ('r', '0', ''):
                     return self.prompt_network()
