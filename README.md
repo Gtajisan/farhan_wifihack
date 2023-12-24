@@ -156,7 +156,7 @@ cd farhan_wifihack &&  sudo python3 farhan_wifihack.py -i wlan0 --pbc
 * `rofl0r` for initial implementation;
 * `Monohrom` for testing, help in catching bugs, some ideas;
 * `Wiire` for developing Pixiewps.
-* binod-xd` for inspire.
-* support on oneshot.
+* `binod-xd` for inspire.
+* support on `oneshot`.
 
 
