@@ -89,6 +89,9 @@ termux-setup-storage
  ```
  cd farhan_wifihack
  ```
+ ```
+ sudo python farhan_wifihack.py -i wlan0 -K
+ ```
 
 #### Running
  ```
