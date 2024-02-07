@@ -87,10 +87,7 @@ termux-setup-storage
  git clone --depth 1 https://github.com/gtajisan/farhan_wifihack farhan_wifihack
  ```
  ```
- cd farhan_wifihack
- ```
- ```
- sudo python farhan_wifihack.py -i wlan0 -K
+ cd farhan_wifihack && sudo python farhan_wifihack.py -i wlan0 -K
  ```
 
 #### Running
