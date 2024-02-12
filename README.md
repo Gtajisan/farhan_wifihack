@@ -94,6 +94,9 @@ termux-setup-storage
  ```
  sudo python farhan_wifihack/farhan_wifihack.py -i wlan0 -K
  ```
+ ```
+ sudo python farhan_wifihack/FARHAN-Shot.py -i wlan0 -K
+ ```
 
 ## [Termux](https://termux.com/)
 
