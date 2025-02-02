@@ -6,7 +6,7 @@
 
 
 ### wifi-hack
-<p align="center"><img src="https://i.ibb.co/b1qqnbS/Photo-Lab-M-W-20231004-231206.jpg"></p>
+
 
 [![Python 3.5](https://img.shields.io/badge/Python-3.5-yellow.svg)](http://www.python.org/download/)
 [![python](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://www.python.org/downloads/release/python-2714/)
